@@ -13,16 +13,9 @@ technique(s) used. This paper investigates the performance
 of k-nearest neighbor and logistic regression on highly
 skewed credit card fraud data. Dataset of credit card
 transactions is sourced from European cardholders
-containing 284,807 transactions. A hybrid
+containing a large amount of transactions. A hybrid
 technique of under-sampling and oversampling is carried
 out on the skewed data. These techniques are applied on
 the raw and preprocessed data. The work is implemented
 in Python. The performance of the techniques is evaluated
-based on accuracy, sensitivity, specificity, precision,
-Matthews correlation coefficient and balanced
-classification rate. The results shows of optimal
-accuracy for k-nearest neighbor and logistic
-regression classifiers are 97.92%, 97.69% and 54.86%
-respectively. The comparative results show that k-nearest
-neighbour performs better than logistic
-regression techniques.
+based on f1 score.
